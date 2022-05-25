@@ -89,7 +89,7 @@ nav {
 header {
   width: 100%;
   height: 750px;
-  background-image: url(../assets/images/main/title_background_img.png);
+  background-image: url(../assets/images/main/title_backgroundx3_img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -98,14 +98,15 @@ header {
   justify-content: center; }
   header .header-div {
     color: white;
-    background-color: rgba(0, 0, 0, 0.349);
+    background-color: #2e2e2e;
     padding: 45px;
     width: 550px;
     display: flex;
     flex-direction: column; }
     header .header-div .header-tile {
       font-size: 32px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      color: #f19100; }
     header .header-div p {
       font-size: 17px; }
 
@@ -131,7 +132,8 @@ header {
       flex-direction: column; }
       .seccion-eventos .eventos-conteiner .eventos-text h3 {
         font-size: 24px;
-        text-align: center; }
+        text-align: center;
+        color: #f19100; }
       .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas {
         display: flex; }
         .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul {
@@ -159,7 +161,8 @@ header {
     background-color: #2e2e2e; }
     .seccion-estadisticas .estadisticas-conteiner h3 {
       font-size: 24px;
-      text-align: center; }
+      text-align: center;
+      color: #f19100; }
     .seccion-estadisticas .estadisticas-conteiner .estadisticas-text {
       display: flex;
       margin-top: 25px; }
