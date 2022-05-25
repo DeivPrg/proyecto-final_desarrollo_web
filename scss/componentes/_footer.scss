@@ -1,0 +1,67 @@
+//========== FOOTER ==========//
+footer{
+    width: 100%;
+    background-color: black;
+    height: 540px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_redes_sociales{
+    width: 100%;
+    background-color: #2e2e2e;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a{
+        padding: 0 20px;
+        img{
+            padding: 15px 0;
+            width: 32px;
+        }
+    }
+}
+
+.logos_footer{
+    width: 100%;
+    margin-top: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_list{
+    width: 100%;
+    margin-top: 45px;
+
+    display: flex;
+    justify-content: center;
+
+    li{
+        padding: 0 20px;
+        a{
+            color: #ffffffb4;
+            font-weight: 300;
+        }
+    }
+}
+
+.footer_img_teen{
+    margin-top: 40px;
+    width: 88px;
+    background-color: rgb(222, 126, 0);
+}
+
+footer p{
+    color: #ffffffb4;
+    padding: 0 25px;
+    margin-top: 35px;
+    font-size: 10.5px;
+    font-weight: 300;
+    text-align: center;
+}

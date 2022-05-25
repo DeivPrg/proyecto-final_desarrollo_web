@@ -1,0 +1,399 @@
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  list-style: none; }
+
+s
+ul, ol {
+  list-style: none; }
+
+a {
+  color: black;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+.floatLeft {
+  float: left;
+  padding: .5em .5em .5em 0; }
+
+.floatRight {
+  float: right;
+  padding: .5em 0 .5em .5em; }
+
+img {
+  width: 100px; }
+
+* {
+  font-family: 'Roboto', sans-serif; }
+
+.main-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 12px; }
+
+nav {
+  height: 58px;
+  background-color: #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+/* Logos Medieval Sword */
+.logoSword {
+  width: 11px;
+  margin-left: 25px; }
+
+.logoString {
+  width: 170px;
+  padding: 19px 20px; }
+
+/* Nav list */
+.link_nav {
+  color: #ffffffb4;
+  letter-spacing: 0.4px;
+  padding: 22px 30px; }
+  .link_nav:hover {
+    color: #ffffff; }
+
+.nav_listMain {
+  display: flex;
+  flex: 1; }
+
+.nav_listRight {
+  display: flex;
+  /* boton jugar */ }
+  .nav_listRight .nav_listRight-btnJugar {
+    background-color: #f19100;
+    color: #000000;
+    padding: 22px 48px; }
+    .nav_listRight .nav_listRight-btnJugar:hover {
+      color: #ffffff; }
+
+/* Menu Hamburguesa */
+.nav_listMain_mobile {
+  display: none; }
+
+#check {
+  display: none; }
+
+.check-btn img {
+  display: none;
+  width: 30px; }
+
+header {
+  width: 100%;
+  height: 750px;
+  background-image: url(../assets/images/main/title_background_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  header .header-div {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.349);
+    padding: 45px;
+    width: 550px;
+    display: flex;
+    flex-direction: column; }
+    header .header-div .header-tile {
+      font-size: 32px;
+      margin-bottom: 20px; }
+    header .header-div p {
+      font-size: 17px; }
+
+.seccion-eventos {
+  width: 100%;
+  height: 750px;
+  background-image: url(../assets/images/main/library_background_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .seccion-eventos .eventos-conteiner {
+    background-color: rgba(0, 0, 0, 0.507);
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .seccion-eventos .eventos-conteiner img {
+      width: 550px; }
+    .seccion-eventos .eventos-conteiner .eventos-text {
+      display: flex;
+      flex-direction: column; }
+      .seccion-eventos .eventos-conteiner .eventos-text h3 {
+        font-size: 24px;
+        text-align: center; }
+      .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas {
+        display: flex; }
+        .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul {
+          padding: 30px; }
+          .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul li {
+            font-size: 16.5px;
+            font-weight: 400;
+            padding: 12px; }
+          .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul .eventos-li-fechas {
+            color: #f8c47b;
+            font-weight: 300; }
+
+.seccion-estadisticas {
+  width: 100%;
+  height: 750px;
+  background-image: url(../assets/images/main/stadistics_background_img.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .seccion-estadisticas .estadisticas-conteiner {
+    padding: 40px;
+    background-color: #2e2e2e; }
+    .seccion-estadisticas .estadisticas-conteiner h3 {
+      font-size: 24px;
+      text-align: center; }
+    .seccion-estadisticas .estadisticas-conteiner .estadisticas-text {
+      display: flex;
+      margin-top: 25px; }
+      .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 35px; }
+        .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo img {
+          width: 60px; }
+        .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo h4 {
+          margin-top: 15px;
+          margin-bottom: 5px;
+          font-size: 18px; }
+        .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo p {
+          color: #f19100;
+          font-size: 13px; }
+
+footer {
+  width: 100%;
+  background-color: black;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.footer_redes_sociales {
+  width: 100%;
+  background-color: #2e2e2e;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .footer_redes_sociales a {
+    padding: 0 20px; }
+    .footer_redes_sociales a img {
+      padding: 15px 0;
+      width: 32px; }
+
+.logos_footer {
+  width: 100%;
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.footer_list {
+  width: 100%;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center; }
+  .footer_list li {
+    padding: 0 20px; }
+    .footer_list li a {
+      color: #ffffffb4;
+      font-weight: 300; }
+
+.footer_img_teen {
+  margin-top: 40px;
+  width: 88px;
+  background-color: #de7e00; }
+
+footer p {
+  color: #ffffffb4;
+  padding: 0 25px;
+  margin-top: 35px;
+  font-size: 10.5px;
+  font-weight: 300;
+  text-align: center; }
+
+@media screen and (max-width: 1024px) {
+  /* ---------- NAV ---------- */
+  nav {
+    justify-content: none;
+    flex: auto; }
+  .logoSword {
+    display: none; }
+  /* Nav Hamburguesa */
+  .check-btn img {
+    margin-left: 15px;
+    display: block;
+    width: 30px; }
+  .img_boton_hamburguesa {
+    width: 10px; }
+  /* Al apretar el icono hamburguesa muestro el nav mobile */
+  .nav_input:checked + .nav_listMain_mobile {
+    clip-path: circle(100% at center); }
+  /* escondo el nav principal */
+  .nav_listMain {
+    display: none; }
+  /* hago visible el nav mobile */
+  .nav_listMain_mobile {
+    display: block;
+    width: 75%;
+    height: max-content;
+    top: 58px;
+    bottom: 0;
+    left: 0;
+    background-color: #f19100;
+    padding-bottom: 1px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    clip-path: circle(0 at center);
+    /*Lo pone por encima de todo*/ }
+    .nav_listMain_mobile li {
+      height: max-content;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .nav_listMain_mobile li a {
+        width: 99%;
+        height: max-content;
+        font-size: 15px;
+        font-weight: 500;
+        color: white;
+        background-color: #2a2a2a;
+        display: flex;
+        /*deja que el tamano del a sea igual al del contenedor*/
+        justify-content: center;
+        align-items: center; }
+  .nav_listMain_mobile li {
+    height: max-content;
+    padding: 1px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  header {
+    height: 500px; }
+    header .header-div {
+      padding: 45px;
+      width: 400px; }
+      header .header-div .header-tile {
+        font-size: 25px; }
+      header .header-div p {
+        font-size: 14px; }
+  .seccion-eventos {
+    height: 500px; }
+    .seccion-eventos .eventos-conteiner img {
+      width: 400px; }
+    .seccion-eventos .eventos-conteiner .eventos-text h3 {
+      font-size: 20px; }
+    .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul {
+      padding: 20px; }
+      .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul li {
+        font-size: 13.5px;
+        font-weight: 400;
+        padding: 7px; }
+      .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul .eventos-li-fechas {
+        color: #f8c47b;
+        font-weight: 300; } }
+
+@media (max-width: 768px) {
+  /* ---------- NAV ---------- */
+  .link_is {
+    display: none; }
+  header {
+    height: 400px; }
+    header .header-div {
+      padding: 40px;
+      width: 350px; }
+      header .header-div .header-tile {
+        font-size: 23px; }
+      header .header-div p {
+        font-size: 13px; }
+  .seccion-eventos {
+    height: 570px; }
+    .seccion-eventos .eventos-conteiner {
+      flex-direction: column;
+      margin: 30px 0; }
+      .seccion-eventos .eventos-conteiner img {
+        width: 340px; }
+      .seccion-eventos .eventos-conteiner .eventos-text h3 {
+        margin-top: 20px;
+        font-size: 20px; }
+      .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul {
+        padding: 15px; }
+        .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul li {
+          font-size: 13.5px;
+          font-weight: 400;
+          padding: 7px; }
+        .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul .eventos-li-fechas {
+          color: #f8c47b;
+          font-weight: 300; } }
+
+@media (max-width: 480px) {
+  /* ---------- NAV ---------- */
+  .logoString {
+    width: 125px;
+    padding: 19px 20px; }
+  .nav_listRight .nav_listRight-btnJugar {
+    background-color: #f19100;
+    color: #000000;
+    padding: 22px 28px; }
+  .nav_listMain_mobile li a {
+    font-size: 12px; }
+  /* ---------- FOOTER ---------- */
+  .logos_footer {
+    margin-top: 25px; }
+  .footer_redes_sociales a {
+    padding: 0 10px; }
+    .footer_redes_sociales a img {
+      padding: 12px 0;
+      width: 26px; }
+  .footer_list {
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; }
+    .footer_list li {
+      padding: 0 5px; }
+  header {
+    height: 300px; }
+    header .header-div {
+      padding: 20px;
+      width: 300px; }
+      header .header-div .header-tile {
+        font-size: 20px; }
+      header .header-div p {
+        font-size: 12px; }
+  .seccion-eventos {
+    height: 500px; }
+    .seccion-eventos .eventos-conteiner {
+      flex-direction: column; }
+      .seccion-eventos .eventos-conteiner img {
+        width: 320px; }
+      .seccion-eventos .eventos-conteiner .eventos-text h3 {
+        margin-top: 18px;
+        font-size: 20px; }
+      .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul {
+        padding: 10px; }
+        .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul li {
+          font-size: 12px;
+          font-weight: 400;
+          padding: 6px; }
+        .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul .eventos-li-fechas {
+          color: #f8c47b;
+          font-weight: 300; } }

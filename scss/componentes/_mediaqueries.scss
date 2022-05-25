@@ -1,0 +1,356 @@
+//========== MEDIA QUERIES ==========//
+
+//----- 1440px -----//
+@media (max-width:1440px) {}
+
+//----- 1024px -----//
+@media screen and (max-width:1024px) {
+
+    /* ---------- NAV ---------- */
+    // Nav 
+    nav {
+        justify-content: none;
+        flex: auto;
+    }
+
+    // Logo espada
+    .logoSword {
+        display: none;
+    }
+
+    // ----------------------//
+
+    /* Nav Hamburguesa */
+    .check-btn img {
+        margin-left: 15px;
+        display: block;
+        width: 30px;
+    }
+
+
+    .img_boton_hamburguesa {
+        width: 10px;
+    }
+
+    /* Al apretar el icono hamburguesa muestro el nav mobile */
+    .nav_input:checked+.nav_listMain_mobile {
+        clip-path: circle(100% at center);
+    }
+
+    /* escondo el nav principal */
+    .nav_listMain {
+        display: none;
+    }
+
+    /* hago visible el nav mobile */
+    .nav_listMain_mobile {
+        display: block;
+        // overflow: hidden;
+        width: 75%;
+        height: max-content;
+        top: 58px;
+        bottom: 0;
+        left: 0;
+        background-color: #f19100;
+        padding-bottom: 1px;
+
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        clip-path: circle(0 at center);
+        /*Lo pone por encima de todo*/
+
+        li {
+            height: max-content;
+            // padding: 1px 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+            a {
+                width: 99%;
+                height: max-content;
+                font-size: 15px;
+                font-weight: 500;
+                color: white;
+                background-color: #2a2a2a;
+
+
+                display: flex;
+                /*deja que el tamano del a sea igual al del contenedor*/
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+    }
+
+
+
+    .nav_listMain_mobile li {
+        height: max-content;
+        padding: 1px 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    //------ HEADER ------//
+    header {
+        height: 500px;
+
+        .header-div {
+            padding: 45px;
+            width: 400px;
+
+            .header-tile {
+                font-size: 25px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+    //----------------------------------------------------//
+
+    //------- MAIN ------//
+
+    // seccion eventos//
+    .seccion-eventos {
+        height: 500px;
+
+        .eventos-conteiner {
+
+            img {
+                width: 400px
+            }
+
+            .eventos-text {
+
+                h3 {
+                    font-size: 20px;
+                }
+
+                .eventos-listas {
+
+                    ul {
+                        padding: 20px;
+
+                        li {
+                            font-size: 13.5px;
+                            font-weight: 400;
+                            padding: 7px
+                        }
+
+                        .eventos-li-fechas {
+                            color: #f8c47b;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+//----- 768px -----//
+@media (max-width:768px) {
+
+    /* ---------- NAV ---------- */
+    // Boton Iniciar sesion
+    .link_is {
+        display: none;
+    }
+
+
+
+    //------ HEADER ------//
+    header {
+        height: 400px;
+
+        .header-div {
+            padding: 40px;
+            width: 350px;
+
+            .header-tile {
+                font-size: 23px;
+            }
+
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+
+        //------- MAIN ------//
+
+    // seccion eventos//
+    .seccion-eventos {
+        height: 570px;
+
+        .eventos-conteiner {
+            flex-direction: column;
+            margin: 30px 0;
+
+            img {
+                width: 340px
+            }
+
+            .eventos-text {
+
+                h3 {
+                    margin-top: 20px;
+                    font-size: 20px;
+                }
+
+                .eventos-listas {
+
+                    ul {
+                        padding: 15px;
+
+                        li {
+                            font-size: 13.5px;
+                            font-weight: 400;
+                            padding: 7px
+                        }
+
+                        .eventos-li-fechas {
+                            color: #f8c47b;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+//----- 480px -----//
+@media (max-width:480px) {
+
+    /* ---------- NAV ---------- */
+    // Logo string
+    .logoString {
+        width: 125px;
+        padding: 19px 20px;
+    }
+
+    // Boton Jugar
+    .nav_listRight {
+        .nav_listRight-btnJugar {
+            background-color: #f19100;
+            color: #000000;
+            padding: 22px 28px;
+        }
+    }
+
+    // Enlaces del boton hamburguesa
+    .nav_listMain_mobile {
+        li {
+            a {
+                font-size: 12px;
+            }
+        }
+
+    }
+
+    /* ---------- FOOTER ---------- */
+
+    .logos_footer {
+        margin-top: 25px;
+    }
+
+    .footer_redes_sociales {
+        a {
+            padding: 0 10px;
+
+            img {
+                padding: 12px 0;
+                width: 26px;
+            }
+        }
+    }
+
+    .footer_list {
+        margin-top: 25px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+        li {
+            padding: 0 5px;
+
+        }
+    }
+
+
+    //------ HEADER ------//
+    header {
+        height: 300px;
+
+        .header-div {
+            padding: 20px;
+            width: 300px;
+
+            .header-tile {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+
+
+            //------- MAIN ------//
+
+    // seccion eventos//
+    .seccion-eventos {
+        height: 500px;
+
+        .eventos-conteiner {
+            flex-direction: column;
+
+            img {
+                width: 320px
+            }
+
+            .eventos-text {
+
+                h3 {
+                    margin-top: 18px;
+                    font-size: 20px;
+                }
+
+                .eventos-listas {
+
+                    ul {
+                        padding: 10px;
+
+                        li {
+                            font-size: 12px;
+                            font-weight: 400;
+                            padding: 6px
+                        }
+
+                        .eventos-li-fechas {
+                            color: #f8c47b;
+                            font-weight: 300;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

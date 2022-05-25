@@ -1,0 +1,153 @@
+//Reset Estilos del Navegador
+@import "reset/reset";
+//Fuente roboto a todos los textos
+@import "fuentes/font";
+//Variables para el proyecto
+@import "variables/variables";
+
+//----------------------------------------------------//
+
+//----- Contenedor del main -----//
+.main-wrapper{
+    width: 100%;
+    background-color: #ffffff;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+
+
+//====== NAV ======//
+@import "componentes/nav";
+
+//====== HEADER ======//
+@import "componentes/header";
+
+//----------------------------------------------------//
+// seccion eventos//
+.seccion-eventos{
+    width: 100%;
+    height: 750px;
+    background-image: url(../assets/images/main/library_background_img.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .eventos-conteiner{
+        background-color: rgba(0, 0, 0, 0.507);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img{
+            width: 550px
+        }
+
+        .eventos-text{
+            display: flex;
+            flex-direction: column;
+
+            h3{
+                font-size: 24px;
+                text-align: center;
+            }
+
+            .eventos-listas{
+                display: flex;
+
+                ul{
+                    padding: 30px;
+                    li{
+                        font-size: 16.5px;
+                        font-weight: 400;
+                        padding: 12px
+                    }
+
+                    .eventos-li-fechas{
+                        color: #f8c47b;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// seccion estadisticas//
+.seccion-estadisticas{
+    width: 100%;
+    height: 750px;
+    background-image: url(../assets/images/main/stadistics_background_img.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .estadisticas-conteiner{
+        padding: 40px;
+        background-color: #2e2e2e;
+        h3{
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .estadisticas-text{
+            display: flex;
+            margin-top: 25px;
+
+            .estadisticas-articulo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                
+                margin: 20px 35px;
+
+                img{
+                    width: 60px
+                }
+
+                h4{
+                    margin-top: 15px;
+                    margin-bottom: 5px;
+                    font-size: 18px
+                }
+
+                p{
+                    color: #f19100;
+                    font-size: 13px;
+                 }
+            }
+        }
+    }
+
+}
+
+//----------------------------------------------------//
+//====== FOOTER ======//
+@import "componentes/footer";
+
+
+
+//====== MEDIA QUERIES ======//
+@import "componentes/mediaqueries" ;
+
+
+
+
+
+
+
+
+
+
+
