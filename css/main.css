@@ -132,8 +132,7 @@ header {
       flex-direction: column; }
       .seccion-eventos .eventos-conteiner .eventos-text h3 {
         font-size: 24px;
-        text-align: center;
-        color: #f19100; }
+        text-align: center; }
       .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas {
         display: flex; }
         .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul {
@@ -164,7 +163,8 @@ header {
       text-align: center;
       color: #f19100; }
     .seccion-estadisticas .estadisticas-conteiner .estadisticas-text {
-      display: flex;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
       margin-top: 25px; }
       .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo {
         display: flex;
@@ -345,7 +345,25 @@ footer p {
           padding: 7px; }
         .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul .eventos-li-fechas {
           color: #f8c47b;
-          font-weight: 300; } }
+          font-weight: 300; }
+  .seccion-estadisticas .estadisticas-conteiner {
+    padding: 40px; }
+    .seccion-estadisticas .estadisticas-conteiner h3 {
+      font-size: 20px; }
+    .seccion-estadisticas .estadisticas-conteiner .estadisticas-text {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin-top: 25px; }
+      .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo {
+        margin: 25px 35px; }
+        .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo img {
+          width: 55px; }
+        .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo h4 {
+          margin-top: 15px;
+          margin-bottom: 5px;
+          font-size: 18px; }
+        .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo p {
+          font-size: 13px; } }
 
 @media (max-width: 480px) {
   /* ---------- NAV ---------- */
@@ -399,4 +417,24 @@ footer p {
           padding: 6px; }
         .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul .eventos-li-fechas {
           color: #f8c47b;
-          font-weight: 300; } }
+          font-weight: 300; }
+  .seccion-estadisticas {
+    height: 550px; }
+    .seccion-estadisticas .estadisticas-conteiner {
+      padding: 20px 0px; }
+      .seccion-estadisticas .estadisticas-conteiner h3 {
+        font-size: 20px; }
+      .seccion-estadisticas .estadisticas-conteiner .estadisticas-text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 25px; }
+        .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo {
+          margin: 25px 30px; }
+          .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo img {
+            width: 40px; }
+          .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo h4 {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-size: 16px; }
+          .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo p {
+            font-size: 13px; } }

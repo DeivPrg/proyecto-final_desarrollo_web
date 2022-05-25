@@ -190,7 +190,7 @@
         }
     }
 
-        //------- MAIN ------//
+    //------- MAIN ------//
 
     // seccion eventos//
     .seccion-eventos {
@@ -231,6 +231,45 @@
             }
         }
     }
+
+    // seccion estadisticas//
+    .seccion-estadisticas {
+
+        .estadisticas-conteiner {
+            padding: 40px;
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .estadisticas-text {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin-top: 25px;
+
+                .estadisticas-articulo {
+
+                    margin: 25px 35px;
+
+                    img {
+                        width: 55px
+                    }
+
+                    h4 {
+                        margin-top: 15px;
+                        margin-bottom: 5px;
+                        font-size: 18px
+                    }
+
+                    p {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+    }
+
 
 }
 
@@ -313,7 +352,7 @@
     }
 
 
-            //------- MAIN ------//
+    //------- MAIN ------//
 
     // seccion eventos//
     .seccion-eventos {
@@ -353,4 +392,43 @@
             }
         }
     }
+
+
+        // seccion estadisticas//
+        .seccion-estadisticas {
+            height: 550px;
+            .estadisticas-conteiner {
+                padding: 20px 0px;
+    
+                h3 {
+                    font-size: 20px;
+                }
+    
+                .estadisticas-text {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    margin-top: 25px;
+    
+                    .estadisticas-articulo {
+    
+                        margin: 25px 30px;
+    
+                        img {
+                            width: 40px
+                        }
+    
+                        h4 {
+                            margin-top: 15px;
+                            margin-bottom: 5px;
+                            font-size: 16px
+                        }
+    
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+    
+        }
 }

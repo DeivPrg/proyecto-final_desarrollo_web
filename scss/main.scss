@@ -56,7 +56,6 @@
             h3{
                 font-size: 24px;
                 text-align: center;
-                color: #f19100;
             }
 
             .eventos-listas{
@@ -104,7 +103,8 @@
         }
 
         .estadisticas-text{
-            display: flex;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr) ;
             margin-top: 25px;
 
             .estadisticas-articulo{
