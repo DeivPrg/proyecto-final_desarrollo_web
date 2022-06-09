@@ -580,8 +580,10 @@ footer p {
           .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo p {
             font-size: 13px; }
   .ayuda-wrapper .main_ayuda h3 {
-    font-size: 26px;
+    font-size: 25px;
     margin: 40px 0; }
+  .ayuda-wrapper .main_ayuda .backg_ayuda {
+    height: 150px; }
   .ayuda-wrapper .main_ayuda .ayuda_text-conteiner {
     height: 720px;
     padding: 0 70px; }
