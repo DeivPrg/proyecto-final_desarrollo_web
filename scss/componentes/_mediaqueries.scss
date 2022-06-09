@@ -157,6 +157,32 @@
         }
     }
 
+    
+    //------- PAGE AYUDA ------//
+    .ayuda-wrapper {
+    
+        .main_ayuda{
+    
+            .ayuda_text-conteiner {
+                height: 760px;
+                padding: 0 220px;
+    
+                h4{
+                    font-size: 21px;
+                    margin-bottom: 10px;
+                    color: #d88304;
+                }
+    
+                p{
+                    font-size: 17px;
+
+                }
+    
+            }
+    
+        }
+    }
+
 }
 
 
@@ -270,7 +296,30 @@
 
     }
 
-
+        //------- PAGE AYUDA ------//
+        .ayuda-wrapper {
+    
+            .main_ayuda{
+        
+                .ayuda_text-conteiner {
+                    height: 760px;
+                    padding: 0 100px;
+        
+                    h4{
+                        font-size: 19px;
+                        margin-bottom: 10px;
+                        color: #d88304;
+                    }
+        
+                    p{
+                        font-size: 15px;
+    
+                    }
+        
+                }
+        
+            }
+        }
 }
 
 
@@ -394,48 +443,111 @@
     }
 
 
-        // seccion estadisticas//
-        .seccion-estadisticas {
-            height: 680px;
-            .estadisticas-conteiner {
-                padding: 20px 0px;
-                background-color: #2e2e2e00;
-    
-                h3 {
-                    font-size: 20px;
-                }
-    
-                .estadisticas-text {
-                    display: grid;
-                    grid-template-columns: 1fr;
-                    margin-top: 25px;
+    // seccion estadisticas//
+    .seccion-estadisticas {
+        height: 680px;
 
-                    .est-actualizaciones{
-                        display: none;
+        .estadisticas-conteiner {
+            padding: 20px 0px;
+            background-color: #2e2e2e00;
+
+            h3 {
+                font-size: 20px;
+            }
+
+            .estadisticas-text {
+                display: grid;
+                grid-template-columns: 1fr;
+                margin-top: 25px;
+
+                .est-actualizaciones {
+                    display: none;
+                }
+
+                .estadisticas-articulo {
+                    background-color: #2e2e2e;
+                    border-radius: 10px;
+                    padding: 25px 30px;
+                    margin: 15px 30px;
+
+                    img {
+                        width: 40px
                     }
-    
-                    .estadisticas-articulo {
-                        background-color: #2e2e2e;
-                        border-radius: 10px;
-                        padding: 25px 30px;
-                        margin: 15px 30px;
-    
-                        img {
-                            width: 40px
-                        }
-    
-                        h4 {
-                            margin-top: 15px;
-                            margin-bottom: 5px;
-                            font-size: 16px
-                        }
-    
-                        p {
-                            font-size: 13px;
-                        }
+
+                    h4 {
+                        margin-top: 15px;
+                        margin-bottom: 5px;
+                        font-size: 16px
+                    }
+
+                    p {
+                        font-size: 13px;
                     }
                 }
             }
+        }
+
+    }
+
     
+        //------- PAGE AYUDA ------//
+        .ayuda-wrapper {
+    
+            .main_ayuda{
+
+                h3{
+                    font-size: 26px;
+                    margin: 40px 0;
+                }
+        
+                .ayuda_text-conteiner {
+                    height: 720px;
+                    padding: 0 70px;
+        
+                    h4{
+                        font-size: 18px;
+                        margin-bottom: 10px;
+                        color: #d88304;
+                    }
+        
+                    p{
+                        font-size: 14px;
+    
+                    }
+        
+                }
+        
+            }
+        }
+
+        //------- PAGE INICIAR SESION ------//
+        .iniciar_sesion-wrapper{
+            font-size: 12px;
+        
+            main{
+                height: 570px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        
+                background-image: url(../assets/images/iniciar_sesion/img_back_is.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+        
+        
+                form{
+                    width: 380px;
+                    height: 480px;
+                    background-color: #ffffff;
+                    border-radius: 0px;
+        
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                }
+        
+            }
         }
 }

@@ -202,8 +202,38 @@ header {
 .ayuda-wrapper {
   width: 100%;
   background-color: #ffffff;
-  color: #ffffff;
+  color: #3a3a3a;
   font-size: 12px; }
+  .ayuda-wrapper .main_ayuda h3 {
+    margin: 50px 0;
+    font-size: 32px;
+    text-align: center; }
+  .ayuda-wrapper .main_ayuda .backg_ayuda {
+    height: 260px;
+    background-image: url(../assets/images/ayuda/img-ayuda.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+  .ayuda-wrapper .main_ayuda .ayuda_text-conteiner {
+    height: 620px;
+    padding: 0 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .ayuda-wrapper .main_ayuda .ayuda_text-conteiner .ayuda-cont {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 20px 0;
+      border-bottom: 1px solid #c2c2c2; }
+    .ayuda-wrapper .main_ayuda .ayuda_text-conteiner h4 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      color: #d88304; }
+    .ayuda-wrapper .main_ayuda .ayuda_text-conteiner p {
+      font-size: 18px;
+      font-weight: 300; }
+    .ayuda-wrapper .main_ayuda .ayuda_text-conteiner a {
+      color: #0e4ec5; }
 
 .iniciar_sesion-wrapper {
   width: 100%;
@@ -399,7 +429,16 @@ footer p {
         padding: 7px; }
       .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul .eventos-li-fechas {
         color: #f8c47b;
-        font-weight: 300; } }
+        font-weight: 300; }
+  .ayuda-wrapper .main_ayuda .ayuda_text-conteiner {
+    height: 760px;
+    padding: 0 220px; }
+    .ayuda-wrapper .main_ayuda .ayuda_text-conteiner h4 {
+      font-size: 21px;
+      margin-bottom: 10px;
+      color: #d88304; }
+    .ayuda-wrapper .main_ayuda .ayuda_text-conteiner p {
+      font-size: 17px; } }
 
 @media (max-width: 768px) {
   /* ---------- NAV ---------- */
@@ -450,7 +489,16 @@ footer p {
           margin-bottom: 5px;
           font-size: 18px; }
         .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo p {
-          font-size: 13px; } }
+          font-size: 13px; }
+  .ayuda-wrapper .main_ayuda .ayuda_text-conteiner {
+    height: 760px;
+    padding: 0 100px; }
+    .ayuda-wrapper .main_ayuda .ayuda_text-conteiner h4 {
+      font-size: 19px;
+      margin-bottom: 10px;
+      color: #d88304; }
+    .ayuda-wrapper .main_ayuda .ayuda_text-conteiner p {
+      font-size: 15px; } }
 
 @media (max-width: 480px) {
   /* ---------- NAV ---------- */
@@ -530,4 +578,35 @@ footer p {
             margin-bottom: 5px;
             font-size: 16px; }
           .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo p {
-            font-size: 13px; } }
+            font-size: 13px; }
+  .ayuda-wrapper .main_ayuda h3 {
+    font-size: 26px;
+    margin: 40px 0; }
+  .ayuda-wrapper .main_ayuda .ayuda_text-conteiner {
+    height: 720px;
+    padding: 0 70px; }
+    .ayuda-wrapper .main_ayuda .ayuda_text-conteiner h4 {
+      font-size: 18px;
+      margin-bottom: 10px;
+      color: #d88304; }
+    .ayuda-wrapper .main_ayuda .ayuda_text-conteiner p {
+      font-size: 14px; }
+  .iniciar_sesion-wrapper {
+    font-size: 12px; }
+    .iniciar_sesion-wrapper main {
+      height: 570px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../assets/images/iniciar_sesion/img_back_is.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+      .iniciar_sesion-wrapper main form {
+        width: 380px;
+        height: 480px;
+        background-color: #ffffff;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
