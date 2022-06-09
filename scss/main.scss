@@ -130,14 +130,37 @@
                  }
             }
         }
+
     }
 
 }
 
 //----------------------------------------------------//
+
+//====== PAGE JUEGO ======//
+@import "componentes/juego";
+
+
+//====== PAGE NOTICIAS ======//
+@import "componentes/noticias";
+
+
+//====== PAGE CONTACTO ======//
+@import "componentes/contacto";
+
+
+//====== PAGE AYUDA ======//
+@import "componentes/ayuda";
+
+
+//====== PAGE AYUDA ======//
+@import "componentes/iniciar_sesion";
+
+
+//----------------------------------------------------//
+
 //====== FOOTER ======//
 @import "componentes/footer";
-
 
 
 //====== MEDIA QUERIES ======//

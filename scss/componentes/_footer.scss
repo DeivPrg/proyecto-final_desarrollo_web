@@ -2,11 +2,19 @@
 footer{
     width: 100%;
     background-color: black;
-    height: 540px;
+    height: 600px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .logos-movil{
+        margin: 40px 0;
+    
+        .logoMovil{
+            width: 120px;
+        }
+    }
 }
 
 .footer_redes_sociales{
@@ -65,3 +73,5 @@ footer p{
     font-weight: 300;
     text-align: center;
 }
+
+

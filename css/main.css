@@ -181,13 +181,100 @@ header {
           color: #f19100;
           font-size: 13px; }
 
+.juego-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 12px; }
+
+.noticias-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 12px; }
+
+.contacto-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 12px; }
+
+.ayuda-wrapper {
+  width: 100%;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: 12px; }
+
+.iniciar_sesion-wrapper {
+  width: 100%;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  font-size: 12px; }
+  .iniciar_sesion-wrapper main {
+    height: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/images/iniciar_sesion/img_back_is.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .iniciar_sesion-wrapper main form {
+      width: 380px;
+      height: 500px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .iniciar_sesion-wrapper main form h3 {
+        width: 100%;
+        text-align: center;
+        margin: 25px;
+        color: #3b3b3b;
+        font-weight: 500;
+        font-size: 19px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #c2c2c2; }
+      .iniciar_sesion-wrapper main form a {
+        font-weight: 400;
+        color: #3b3b3b;
+        margin: 20px 0; }
+      .iniciar_sesion-wrapper main form .usuario {
+        width: 75%;
+        position: relative;
+        color: #3b3b3b;
+        border-bottom: 2px solid #797979;
+        font-size: 14px;
+        margin: 25px 0; }
+        .iniciar_sesion-wrapper main form .usuario input {
+          width: 100%;
+          top: 50%;
+          height: 40px;
+          font-size: 14px;
+          border: none;
+          background: none;
+          outline: none; }
+      .iniciar_sesion-wrapper main form .boton-ingresar {
+        background-color: #f19100;
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+        width: 280px;
+        padding: 12px;
+        border-radius: 25px; }
+
 footer {
   width: 100%;
   background-color: black;
-  height: 540px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center; }
+  footer .logos-movil {
+    margin: 40px 0; }
+    footer .logos-movil .logoMovil {
+      width: 120px; }
 
 .footer_redes_sociales {
   width: 100%;
