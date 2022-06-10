@@ -198,6 +198,64 @@ header {
   background-color: #ffffff;
   color: #ffffff;
   font-size: 12px; }
+  .contacto-wrapper main {
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/images/contacto/img-backg-contacto.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+    .contacto-wrapper main form {
+      width: 600px;
+      height: 760px;
+      color: #d88304;
+      background-color: #000000c0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 12px; }
+      .contacto-wrapper main form h3 {
+        margin-top: 40px;
+        margin-bottom: 15px;
+        color: #ffffff;
+        font-size: 30px; }
+      .contacto-wrapper main form .cont-fm {
+        width: 75%;
+        display: block;
+        position: relative;
+        color: #f19100;
+        border-bottom: 2px solid #afafaf;
+        font-size: 16px;
+        margin: 15px 0; }
+        .contacto-wrapper main form .cont-fm input {
+          width: 100%;
+          top: 50%;
+          height: 40px;
+          margin-top: 10px;
+          font-size: 15px;
+          font-weight: 300;
+          color: #ffffff;
+          background-color: #2b2b2ba6;
+          border: none;
+          outline: none; }
+        .contacto-wrapper main form .cont-fm textarea {
+          width: 100%;
+          margin-top: 10px;
+          font-size: 15px;
+          font-weight: 300;
+          color: #ffffff;
+          background-color: #2b2b2ba6; }
+      .contacto-wrapper main form .boton-ingresar {
+        background-color: #f19100;
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+        width: 75%;
+        margin: 22px 0;
+        padding: 15px;
+        border-radius: 25px; }
 
 .ayuda-wrapper {
   width: 100%;
@@ -611,4 +669,8 @@ footer p {
         border-radius: 0px;
         display: flex;
         flex-direction: column;
-        align-items: center; } }
+        align-items: center; }
+  .contacto-wrapper main {
+    height: 800px; }
+    .contacto-wrapper main form h3 {
+      font-size: 25px; } }
