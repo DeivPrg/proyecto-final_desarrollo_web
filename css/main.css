@@ -186,6 +186,146 @@ header {
   background-color: #ffffff;
   color: #ffffff;
   font-size: 12px; }
+  .juego-wrapper .main-juego-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .juego-wrapper .main-juego-conteiner .section-inicio {
+      width: 100%;
+      height: 700px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-image: url(../assets/images/juego/img-juego-inicio.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; }
+      .juego-wrapper .main-juego-conteiner .section-inicio p {
+        width: 30%;
+        padding: 35px;
+        background-color: #00000080;
+        font-size: 18px; }
+    .juego-wrapper .main-juego-conteiner .section-clases {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin {
+        width: 100%;
+        height: 300px;
+        background-image: url(../assets/images/juego/img-juego-espadachin.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin h4 {
+          margin: 20px 0;
+          text-align: center;
+          font-size: 25px;
+          padding: 15px;
+          background-color: #00000080; }
+      .juego-wrapper .main-juego-conteiner .section-clases .clase-mago {
+        width: 100%;
+        height: 300px;
+        background-image: url(../assets/images/juego/img-juego-mago.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-mago h4 {
+          margin: 20px 0;
+          text-align: center;
+          font-size: 25px;
+          padding: 15px;
+          background-color: #00000080; }
+      .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero {
+        width: 100%;
+        height: 300px;
+        background-image: url(../assets/images/juego/img-juego-arquero.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero h4 {
+          margin: 20px 0;
+          text-align: center;
+          font-size: 25px;
+          padding: 15px;
+          background-color: #00000080; }
+    .juego-wrapper .main-juego-conteiner .section-bosses {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .juego-wrapper .main-juego-conteiner .section-bosses .boss-inicio {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url(../assets/images/juego/img-juego-bosses-inicio.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-inicio p {
+          width: 20%;
+          padding: 35px;
+          background-color: #00000080;
+          font-size: 18px; }
+      .juego-wrapper .main-juego-conteiner .section-bosses .boss-one {
+        width: 100%;
+        height: 200px;
+        background-image: url(../assets/images/juego/img-boss-dragon.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-one h4 {
+          margin: 20px 0;
+          text-align: center;
+          font-size: 25px;
+          padding: 15px;
+          background-color: #00000080; }
+      .juego-wrapper .main-juego-conteiner .section-bosses .boss-two {
+        width: 100%;
+        height: 200px;
+        background-image: url(../assets/images/juego/img-boss-plex.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-two h4 {
+          margin: 20px 0;
+          text-align: center;
+          font-size: 25px;
+          padding: 15px;
+          background-color: #00000080; }
+      .juego-wrapper .main-juego-conteiner .section-bosses .boss-three {
+        width: 100%;
+        height: 200px;
+        background-image: url(../assets/images/juego/img-juego-fenix.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-three h4 {
+          margin: 20px 0;
+          text-align: center;
+          font-size: 25px;
+          padding: 15px;
+          background-color: #00000080; }
 
 .noticias-wrapper {
   width: 100%;
