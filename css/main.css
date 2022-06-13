@@ -196,15 +196,16 @@ header {
       display: flex;
       align-items: center;
       justify-content: center;
-      background-image: url(../assets/images/juego/img-juego-inicio.jpg);
+      background-image: url(../assets/images/juego/img-juego-inicio.png);
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover; }
       .juego-wrapper .main-juego-conteiner .section-inicio p {
-        width: 30%;
-        padding: 35px;
-        background-color: #00000080;
-        font-size: 18px; }
+        width: 27%;
+        font-size: 18px;
+        padding: 25px;
+        font-weight: 400;
+        background-color: #00000091; }
     .juego-wrapper .main-juego-conteiner .section-clases {
       width: 100%;
       display: flex;
@@ -213,51 +214,110 @@ header {
       .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin {
         width: 100%;
         height: 300px;
-        background-image: url(../assets/images/juego/img-juego-espadachin.jpg);
+        background-image: url(../assets/images/juego/clases/img-espadachin-oscuro.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         display: flex;
         flex-direction: column;
-        align-items: center; }
-        .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin h4 {
-          margin: 20px 0;
-          text-align: center;
-          font-size: 25px;
-          padding: 15px;
-          background-color: #00000080; }
+        align-items: center;
+        justify-content: center; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back {
+          width: 100%;
+          height: 100%; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back .clase-espadachin-text {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back .clase-espadachin-text h4 {
+              text-align: center;
+              font-size: 27px;
+              padding: 10px; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back .clase-espadachin-text p {
+              display: none;
+              width: 35%;
+              font-size: 16px;
+              padding: 15px;
+              font-weight: 300; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back:hover {
+          width: 99.5%;
+          border: 5px solid #ffffff;
+          background-color: #0000007a; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back:hover p {
+            display: block; }
       .juego-wrapper .main-juego-conteiner .section-clases .clase-mago {
         width: 100%;
         height: 300px;
-        background-image: url(../assets/images/juego/img-juego-mago.jpg);
+        background-image: url(../assets/images/juego/clases/img-mago-oscuro.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         display: flex;
         flex-direction: column;
-        align-items: center; }
-        .juego-wrapper .main-juego-conteiner .section-clases .clase-mago h4 {
-          margin: 20px 0;
-          text-align: center;
-          font-size: 25px;
-          padding: 15px;
-          background-color: #00000080; }
+        align-items: center;
+        justify-content: center; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back {
+          width: 100%;
+          height: 100%; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back .clase-mago-text {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back .clase-mago-text h4 {
+              text-align: center;
+              font-size: 27px; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back .clase-mago-text p {
+              display: none;
+              width: 35%;
+              font-size: 16px;
+              padding: 15px;
+              font-weight: 300; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back:hover {
+          width: 99.5%;
+          border: 5px solid #ffffff;
+          background-color: #00000086; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back:hover p {
+            display: block; }
       .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero {
         width: 100%;
         height: 300px;
-        background-image: url(../assets/images/juego/img-juego-arquero.jpg);
+        background-image: url(../assets/images/juego/clases/img-arquero-oscuro.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         display: flex;
         flex-direction: column;
-        align-items: center; }
-        .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero h4 {
-          margin: 20px 0;
-          text-align: center;
-          font-size: 25px;
-          padding: 15px;
-          background-color: #00000080; }
+        align-items: center;
+        justify-content: center; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back {
+          width: 100%;
+          height: 100%; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back .clase-arquero-text {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back .clase-arquero-text h4 {
+              text-align: center;
+              font-size: 27px;
+              padding: 10px; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back .clase-arquero-text p {
+              display: none;
+              width: 35%;
+              font-size: 16px;
+              padding: 15px;
+              font-weight: 300; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back:hover {
+          width: 99.5%;
+          border: 5px solid #ffffff;
+          background-color: #0000007a; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back:hover p {
+            display: block; }
     .juego-wrapper .main-juego-conteiner .section-bosses {
       width: 100%;
       display: flex;
@@ -280,7 +340,7 @@ header {
           font-size: 18px; }
       .juego-wrapper .main-juego-conteiner .section-bosses .boss-one {
         width: 100%;
-        height: 200px;
+        height: 250px;
         background-image: url(../assets/images/juego/img-boss-dragon.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -288,15 +348,34 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center; }
-        .juego-wrapper .main-juego-conteiner .section-bosses .boss-one h4 {
-          margin: 20px 0;
-          text-align: center;
-          font-size: 25px;
-          padding: 15px;
-          background-color: #00000080; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back {
+          width: 100%;
+          height: 100%; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back .boss-one-text {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back .boss-one-text h4 {
+              text-align: center;
+              font-size: 27px;
+              padding: 10px; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back .boss-one-text p {
+              display: none;
+              width: 35%;
+              font-size: 16px;
+              padding: 15px;
+              font-weight: 300; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back:hover {
+          width: 99.5%;
+          border: 5px solid #ffffff;
+          background-color: #0000007a; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back:hover p {
+            display: block; }
       .juego-wrapper .main-juego-conteiner .section-bosses .boss-two {
         width: 100%;
-        height: 200px;
+        height: 250px;
         background-image: url(../assets/images/juego/img-boss-plex.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -304,28 +383,66 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center; }
-        .juego-wrapper .main-juego-conteiner .section-bosses .boss-two h4 {
-          margin: 20px 0;
-          text-align: center;
-          font-size: 25px;
-          padding: 15px;
-          background-color: #00000080; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back {
+          width: 100%;
+          height: 100%; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back .boss-two-text {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back .boss-two-text h4 {
+              text-align: center;
+              font-size: 27px;
+              padding: 10px; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back .boss-two-text p {
+              display: none;
+              width: 35%;
+              font-size: 16px;
+              padding: 15px;
+              font-weight: 300; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back:hover {
+          width: 99.5%;
+          border: 5px solid #ffffff;
+          background-color: #0000007a; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back:hover p {
+            display: block; }
       .juego-wrapper .main-juego-conteiner .section-bosses .boss-three {
         width: 100%;
-        height: 200px;
-        background-image: url(../assets/images/juego/img-juego-fenix.jpg);
+        height: 250px;
+        background-image: url(../assets/images/juego/img-juego-fenix.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: center; }
-        .juego-wrapper .main-juego-conteiner .section-bosses .boss-three h4 {
-          margin: 20px 0;
-          text-align: center;
-          font-size: 25px;
-          padding: 15px;
-          background-color: #00000080; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back {
+          width: 100%;
+          height: 100%; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back .boss-three-text {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back .boss-three-text h4 {
+              text-align: center;
+              font-size: 27px;
+              padding: 10px; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back .boss-three-text p {
+              display: none;
+              width: 35%;
+              font-size: 16px;
+              padding: 15px;
+              font-weight: 300; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back:hover {
+          width: 99.5%;
+          border: 5px solid #ffffff;
+          background-color: #0000007a; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back:hover p {
+            display: block; }
 
 .noticias-wrapper {
   width: 100%;
@@ -676,7 +793,152 @@ footer p {
   .noticias-wrapper main .main-noticias_conteiner .noticias-cuaternarias {
     margin: 50px 0;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  .juego-wrapper {
+    width: 100%; }
+    .juego-wrapper .main-juego-conteiner {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .juego-wrapper .main-juego-conteiner .section-inicio {
+        width: 100%;
+        height: 700px; }
+        .juego-wrapper .main-juego-conteiner .section-inicio p {
+          width: 50%;
+          font-size: 18px; }
+      .juego-wrapper .main-juego-conteiner .section-clases {
+        width: 100%; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin {
+          width: 100%;
+          height: 300px; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back .clase-espadachin-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back .clase-espadachin-text h4 {
+                font-size: 27px; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back .clase-espadachin-text p {
+                display: none;
+                width: 70%; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #0000007a; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back:hover p {
+              display: block; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-mago {
+          width: 100%;
+          height: 300px; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back .clase-mago-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back .clase-mago-text h4 {
+                font-size: 27px; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back .clase-mago-text p {
+                display: none;
+                width: 70%;
+                font-size: 16px; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #00000086; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back:hover p {
+              display: block; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero {
+          width: 100%;
+          height: 300px; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back .clase-arquero-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back .clase-arquero-text h4 {
+                font-size: 27px; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back .clase-arquero-text p {
+                display: none;
+                width: 70%;
+                font-size: 16px; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #0000007a; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back:hover p {
+              display: block; }
+      .juego-wrapper .main-juego-conteiner .section-bosses {
+        width: 100%; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-inicio {
+          width: 100%;
+          height: 700px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-inicio p {
+            width: 50%;
+            padding: 35px;
+            background-color: #00000080;
+            font-size: 18px; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-one {
+          width: 100%;
+          height: 250px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back .boss-one-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back .boss-one-text h4 {
+                font-size: 27px; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back .boss-one-text p {
+                display: none;
+                width: 70%;
+                font-size: 16px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #0000007a; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back:hover p {
+              display: block; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-two {
+          width: 100%;
+          height: 250px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back .boss-two-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back .boss-two-text h4 {
+                font-size: 27px;
+                padding: 10px; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back .boss-two-text p {
+                display: none;
+                width: 70%;
+                font-size: 16px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #0000007a; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back:hover p {
+              display: block; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-three {
+          width: 100%;
+          height: 250px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back .boss-three-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back .boss-three-text h4 {
+                font-size: 27px;
+                padding: 10px; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back .boss-three-text p {
+                display: none;
+                width: 70%;
+                font-size: 16px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #0000007a; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back:hover p {
+              display: block; } }
 
 @media (max-width: 768px) {
   /* ---------- NAV ---------- */
@@ -751,7 +1013,15 @@ footer p {
   .noticias-wrapper main .main-noticias_conteiner .noticias-cuaternarias {
     margin: 50px 0;
     display: grid;
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .juego-wrapper {
+    width: 100%; }
+    .juego-wrapper .main-juego-conteiner .section-inicio {
+      width: 100%;
+      height: 700px; }
+      .juego-wrapper .main-juego-conteiner .section-inicio p {
+        width: 80%;
+        font-size: 16px; } }
 
 @media (max-width: 480px) {
   /* ---------- NAV ---------- */
@@ -889,4 +1159,149 @@ footer p {
     .noticias-wrapper main .main-noticias_conteiner .noticias-cuaternarias {
       margin: 50px 0;
       display: grid;
-      grid-template-columns: 1fr; } }
+      grid-template-columns: 1fr; }
+  .juego-wrapper {
+    width: 100%; }
+    .juego-wrapper .main-juego-conteiner {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .juego-wrapper .main-juego-conteiner .section-inicio {
+        width: 100%;
+        height: 300px; }
+        .juego-wrapper .main-juego-conteiner .section-inicio p {
+          width: 100%;
+          font-size: 17px; }
+      .juego-wrapper .main-juego-conteiner .section-clases {
+        width: 100%; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin {
+          width: 100%;
+          height: 300px; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back .clase-espadachin-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back .clase-espadachin-text h4 {
+                font-size: 24px; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back .clase-espadachin-text p {
+                display: none;
+                width: 80%; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #0000007a; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-espadachin .clase-espadachin-back:hover p {
+              display: block; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-mago {
+          width: 100%;
+          height: 300px; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back .clase-mago-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back .clase-mago-text h4 {
+                font-size: 24px; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back .clase-mago-text p {
+                display: none;
+                width: 80%;
+                font-size: 16px; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #00000086; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-mago .clase-mago-back:hover p {
+              display: block; }
+        .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero {
+          width: 100%;
+          height: 300px; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back .clase-arquero-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back .clase-arquero-text h4 {
+                font-size: 24px; }
+              .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back .clase-arquero-text p {
+                display: none;
+                width: 80%;
+                font-size: 16px; }
+          .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #0000007a; }
+            .juego-wrapper .main-juego-conteiner .section-clases .clase-arquero .clase-arquero-back:hover p {
+              display: block; }
+      .juego-wrapper .main-juego-conteiner .section-bosses {
+        width: 100%; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-inicio {
+          width: 100%;
+          height: 300px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-inicio p {
+            width: 50%;
+            padding: 35px;
+            background-color: #00000080;
+            font-size: 17px; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-one {
+          width: 100%;
+          height: 250px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back .boss-one-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back .boss-one-text h4 {
+                font-size: 22px; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back .boss-one-text p {
+                display: none;
+                width: 80%;
+                font-size: 15px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #0000007a; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-one .boss-one-back:hover p {
+              display: block; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-two {
+          width: 100%;
+          height: 250px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back .boss-two-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back .boss-two-text h4 {
+                font-size: 22px;
+                padding: 10px; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back .boss-two-text p {
+                display: none;
+                width: 80%;
+                font-size: 15px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #0000007a; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-two .boss-two-back:hover p {
+              display: block; }
+        .juego-wrapper .main-juego-conteiner .section-bosses .boss-three {
+          width: 100%;
+          height: 250px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back {
+            width: 100%;
+            height: 100%; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back .boss-three-text {
+              height: 100%; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back .boss-three-text h4 {
+                font-size: 22px;
+                padding: 10px; }
+              .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back .boss-three-text p {
+                display: none;
+                width: 80%;
+                font-size: 15px; }
+          .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back:hover {
+            width: 99.5%;
+            border: 5px solid #ffffff;
+            background-color: #0000007a; }
+            .juego-wrapper .main-juego-conteiner .section-bosses .boss-three .boss-three-back:hover p {
+              display: block; } }

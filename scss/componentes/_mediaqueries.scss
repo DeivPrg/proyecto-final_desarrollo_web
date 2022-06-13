@@ -217,10 +217,272 @@
 
         }
 
+    }
+
+    //----- PAGE JUEGO -----//
+    .juego-wrapper {
+        width: 100%;
+
+        .main-juego-conteiner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .section-inicio {
+                width: 100%;
+                height: 700px;
+
+                p {
+                    width: 50%;
+                    font-size: 18px;
+                }
+            }
+
+            .section-clases {
+                width: 100%;
+
+                //----- ESPADACHIN-----//
+                .clase-espadachin {
+                    width: 100%;
+                    height: 300px;
+
+                    .clase-espadachin-back {
+                        width: 100%;
+                        height: 100%;
+
+
+                        .clase-espadachin-text {
+                            height: 100%;
+
+                            h4 {
+                                font-size: 27px;
+                            }
+
+                            p {
+                                display: none;
+                                width: 70%;
+                            }
+
+                        }
+                    }
+
+
+                    .clase-espadachin-back:hover {
+                        width: 99.5%;
+                        border: 5px solid #ffffff;
+                        background-color: #0000007a;
+
+                        p {
+                            display: block;
+                        }
+                    }
+
+                }
+
+
+                //----- MAGO-----//
+                .clase-mago {
+                    width: 100%;
+                    height: 300px;
+
+                    .clase-mago-back {
+                        width: 100%;
+                        height: 100%;
+
+                        .clase-mago-text {
+                            height: 100%;
+
+                            h4 {
+                                font-size: 27px;
+                            }
+
+                            p {
+                                display: none;
+                                width: 70%;
+                                font-size: 16px;
+                            }
+
+                        }
+                    }
+
+                    .clase-mago-back:hover {
+                        width: 99.5%;
+                        border: 5px solid #ffffff;
+                        background-color: #00000086;
+
+                        p {
+                            display: block;
+                        }
+                    }
+                }
+
+                
+                //----- ARQUERO-----//
+                .clase-arquero {
+                    width: 100%;
+                    height: 300px;
+
+                    .clase-arquero-back {
+                        width: 100%;
+                        height: 100%;
+
+                        .clase-arquero-text {
+                            height: 100%;
+
+                            h4 {
+                                font-size: 27px;
+                            }
+
+                            p {
+                                display: none;
+                                width: 70%;
+                                font-size: 16px;
+                            }
+
+                        }
+                    }
+
+                    .clase-arquero-back:hover {
+                        width: 99.5%;
+                        border: 5px solid #ffffff;
+                        background-color: #0000007a;
+
+                        p {
+                            display: block;
+                        }
+                    }
+                }
+            }
+
+            .section-bosses {
+                width: 100%;
+
+                .boss-inicio {
+                    width: 100%;
+                    height: 700px;
+
+                    p {
+                        width: 50%;
+                        padding: 35px;
+                        background-color: #00000080;
+                        font-size: 18px;
+                    }
+                }
+
+                .boss-one {
+                    width: 100%;
+                    height: 250px;
+
+                    .boss-one-back {
+                        width: 100%;
+                        height: 100%;
+
+                        .boss-one-text {
+                            height: 100%;
+
+                            h4 {
+                                font-size: 27px;
+                            }
+
+                            p {
+                                display: none;
+                                width: 70%;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+
+                    .boss-one-back:hover {
+                        width: 99.5%;
+                        border: 5px solid #ffffff;
+                        background-color: #0000007a;
+
+                        p {
+                            display: block;
+                        }
+                    }
+                }
+
+                .boss-two {
+                    width: 100%;
+                    height: 250px;
+
+                    .boss-two-back {
+                        width: 100%;
+                        height: 100%;
+
+                        .boss-two-text {
+                            height: 100%;
+
+                            h4 {
+                                font-size: 27px;
+                                padding: 10px;
+                            }
+
+                            p {
+                                display: none;
+                                width: 70%;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    .boss-two-back:hover {
+                        width: 99.5%;
+                        border: 5px solid #ffffff;
+                        background-color: #0000007a;
+
+                        p {
+                            display: block;
+                        }
+                    }
+                }
+
+                .boss-three {
+                    width: 100%;
+                    height: 250px;
+
+                    .boss-three-back {
+                        width: 100%;
+                        height: 100%;
+
+                        .boss-three-text {
+                            height: 100%;
+
+                            h4 {
+                                font-size: 27px;
+                                padding: 10px;
+                            }
+
+                            p {
+                                display: none;
+                                width: 70%;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+
+                    .boss-three-back:hover {
+                        width: 99.5%;
+                        border: 5px solid #ffffff;
+                        background-color: #0000007a;
+
+                        p {
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
 
     }
 
+
+
 }
+
+
 
 
 
@@ -397,6 +659,27 @@
 
 
     }
+
+
+    //------ PAGE JUEGO ------//
+    .juego-wrapper {
+        width: 100%;
+
+        .main-juego-conteiner {
+
+
+            .section-inicio {
+                width: 100%;
+                height: 700px;
+
+                p {
+                    width: 80%;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+
 }
 
 
@@ -693,6 +976,265 @@
 
         }
 
-
     }
+
+        //----- PAGE JUEGO -----//
+        .juego-wrapper {
+            width: 100%;
+    
+            .main-juego-conteiner {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+    
+                .section-inicio {
+                    width: 100%;
+                    height: 300px;
+    
+                    p {
+                        width: 100%;
+                        font-size: 17px;
+                    }
+                }
+    
+                .section-clases {
+                    width: 100%;
+    
+                    //----- ESPADACHIN-----//
+                    .clase-espadachin {
+                        width: 100%;
+                        height: 300px;
+    
+                        .clase-espadachin-back {
+                            width: 100%;
+                            height: 100%;
+    
+    
+                            .clase-espadachin-text {
+                                height: 100%;
+    
+                                h4 {
+                                    font-size: 24px;
+                                }
+    
+                                p {
+                                    display: none;
+                                    width: 80%;
+                                }
+    
+                            }
+                        }
+    
+    
+                        .clase-espadachin-back:hover {
+                            width: 99.5%;
+                            border: 5px solid #ffffff;
+                            background-color: #0000007a;
+    
+                            p {
+                                display: block;
+                            }
+                        }
+    
+                    }
+    
+    
+                    //----- MAGO-----//
+                    .clase-mago {
+                        width: 100%;
+                        height: 300px;
+    
+                        .clase-mago-back {
+                            width: 100%;
+                            height: 100%;
+    
+                            .clase-mago-text {
+                                height: 100%;
+    
+                                h4 {
+                                    font-size: 24px;
+                                }
+    
+                                p {
+                                    display: none;
+                                    width: 80%;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                        }
+    
+                        .clase-mago-back:hover {
+                            width: 99.5%;
+                            border: 5px solid #ffffff;
+                            background-color: #00000086;
+    
+                            p {
+                                display: block;
+                            }
+                        }
+                    }
+    
+                    
+                    //----- ARQUERO-----//
+                    .clase-arquero {
+                        width: 100%;
+                        height: 300px;
+    
+                        .clase-arquero-back {
+                            width: 100%;
+                            height: 100%;
+    
+                            .clase-arquero-text {
+                                height: 100%;
+    
+                                h4 {
+                                    font-size: 24px;
+                                }
+    
+                                p {
+                                    display: none;
+                                    width: 80%;
+                                    font-size: 16px;
+                                }
+    
+                            }
+                        }
+    
+                        .clase-arquero-back:hover {
+                            width: 99.5%;
+                            border: 5px solid #ffffff;
+                            background-color: #0000007a;
+    
+                            p {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+    
+                .section-bosses {
+                    width: 100%;
+    
+                    .boss-inicio {
+                        width: 100%;
+                        height: 300px;
+    
+                        p {
+                            width: 50%;
+                            padding: 35px;
+                            background-color: #00000080;
+                            font-size: 17px;
+                        }
+                    }
+    
+                    .boss-one {
+                        width: 100%;
+                        height: 250px;
+    
+                        .boss-one-back {
+                            width: 100%;
+                            height: 100%;
+    
+                            .boss-one-text {
+                                height: 100%;
+    
+                                h4 {
+                                    font-size: 22px;
+                                }
+    
+                                p {
+                                    display: none;
+                                    width: 80%;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+    
+    
+                        .boss-one-back:hover {
+                            width: 99.5%;
+                            border: 5px solid #ffffff;
+                            background-color: #0000007a;
+    
+                            p {
+                                display: block;
+                            }
+                        }
+                    }
+    
+                    .boss-two {
+                        width: 100%;
+                        height: 250px;
+    
+                        .boss-two-back {
+                            width: 100%;
+                            height: 100%;
+    
+                            .boss-two-text {
+                                height: 100%;
+    
+                                h4 {
+                                    font-size: 22px;
+                                    padding: 10px;
+                                }
+    
+                                p {
+                                    display: none;
+                                    width: 80%;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+    
+                        .boss-two-back:hover {
+                            width: 99.5%;
+                            border: 5px solid #ffffff;
+                            background-color: #0000007a;
+    
+                            p {
+                                display: block;
+                            }
+                        }
+                    }
+    
+                    .boss-three {
+                        width: 100%;
+                        height: 250px;
+    
+                        .boss-three-back {
+                            width: 100%;
+                            height: 100%;
+    
+                            .boss-three-text {
+                                height: 100%;
+    
+                                h4 {
+                                    font-size: 22px;
+                                    padding: 10px;
+                                }
+    
+                                p {
+                                    display: none;
+                                    width: 80%;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+    
+                        .boss-three-back:hover {
+                            width: 99.5%;
+                            border: 5px solid #ffffff;
+                            background-color: #0000007a;
+    
+                            p {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+    
+        }
+    
 }

@@ -18,16 +18,17 @@
             align-items: center;
             justify-content: center;
 
-            background-image: url(../assets/images/juego/img-juego-inicio.jpg);
+            background-image: url(../assets/images/juego/img-juego-inicio.png);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
 
             p {
-                width: 30%;
-                padding: 35px;
-                background-color: #00000080;
+                width: 27%;
                 font-size: 18px;
+                padding: 25px;
+                font-weight: 400;
+                background-color: #00000091;
             }
         }
 
@@ -43,7 +44,7 @@
                 width: 100%;
                 height: 300px;
 
-                background-image: url(../assets/images/juego/img-juego-espadachin.jpg);
+                background-image: url(../assets/images/juego/clases/img-espadachin-oscuro.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
@@ -51,77 +52,168 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-    
+                justify-content: center;
 
-                h4{
-                    margin: 20px 0;
-                    text-align: center;
-                    font-size: 25px;
-                    padding: 15px;
-                    background-color: #00000080;
+                .clase-espadachin-back {
+                    width: 100%;
+                    height: 100%;
+
+
+                    .clase-espadachin-text {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        h4 {
+                            text-align: center;
+                            font-size: 27px;
+                            padding: 10px;
+                        }
+
+                        p {
+                            display: none;
+                            width: 35%;
+                            font-size: 16px;
+                            padding: 15px;
+                            font-weight: 300;
+                        }
+
+                    }
                 }
 
-                p{
 
+                .clase-espadachin-back:hover {
+                    width: 99.5%;
+                    border: 5px solid #ffffff;
+                    background-color: #0000007a;
+
+                    p {
+                        display: block;
+                    }
                 }
+
             }
 
 
-            .clase-mago{
+            .clase-mago {
                 width: 100%;
                 height: 300px;
 
-                background-image: url(../assets/images/juego/img-juego-mago.jpg);
+
+                background-image: url(../assets/images/juego/clases/img-mago-oscuro.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
 
-                
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                justify-content: center;
 
-                h4{
-                    margin: 20px 0;
-                    text-align: center;
-                    font-size: 25px;
-                    padding: 15px;
-                    background-color: #00000080;
+                .clase-mago-back {
+                    width: 100%;
+                    height: 100%;
+
+                    .clase-mago-text {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+
+                        h4 {
+                            text-align: center;
+                            font-size: 27px;
+                        }
+
+                        p {
+                            display: none;
+                            width: 35%;
+                            font-size: 16px;
+                            padding: 15px;
+                            font-weight: 300;
+                        }
+
+                    }
+                }
+
+                .clase-mago-back:hover {
+                    width: 99.5%;
+                    border: 5px solid #ffffff;
+                    background-color: #00000086;
+
+                    p {
+                        display: block;
+                    }
                 }
             }
 
-            .clase-arquero{
+            .clase-arquero {
                 width: 100%;
                 height: 300px;
 
-                background-image: url(../assets/images/juego/img-juego-arquero.jpg);
+                background-image: url(../assets/images/juego/clases/img-arquero-oscuro.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
 
-                
+
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                justify-content: center;
 
-                h4{
-                    margin: 20px 0;
-                    text-align: center;
-                    font-size: 25px;
-                    padding: 15px;
-                    background-color: #00000080;
+                .clase-arquero-back {
+                    width: 100%;
+                    height: 100%;
+
+                    .clase-arquero-text {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        h4 {
+                            text-align: center;
+                            font-size: 27px;
+                            padding: 10px;
+                        }
+
+                        p {
+                            display: none;
+                            width: 35%;
+                            font-size: 16px;
+                            padding: 15px;
+                            font-weight: 300;
+                        }
+
+                    }
+                }
+
+                .clase-arquero-back:hover {
+                    width: 99.5%;
+                    border: 5px solid #ffffff;
+                    background-color: #0000007a;
+
+                    p {
+                        display: block;
+                    }
                 }
             }
         }
 
-        .section-bosses{
+        .section-bosses {
             width: 100%;
 
             display: flex;
             flex-direction: column;
             align-items: center;
 
-            .boss-inicio{
+            .boss-inicio {
                 width: 100%;
                 height: 700px;
 
@@ -142,72 +234,161 @@
                 }
             }
 
-            .boss-one{
+            .boss-one {
                 width: 100%;
-                height: 200px;
+                height: 250px;
 
                 background-image: url(../assets/images/juego/img-boss-dragon.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
 
-                
+
                 display: flex;
                 flex-direction: column;
                 align-items: center;
 
-                h4{
-                    margin: 20px 0;
-                    text-align: center;
-                    font-size: 25px;
-                    padding: 15px;
-                    background-color: #00000080;
+                .boss-one-back {
+                    width: 100%;
+                    height: 100%;
+
+                    .boss-one-text {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+
+                        h4 {
+                            text-align: center;
+                            font-size: 27px;
+                            padding: 10px;
+                        }
+
+                        p {
+                            display: none;
+                            width: 35%;
+                            font-size: 16px;
+                            padding: 15px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+
+
+                .boss-one-back:hover {
+                    width: 99.5%;
+                    border: 5px solid #ffffff;
+                    background-color: #0000007a;
+
+                    p {
+                        display: block;
+                    }
                 }
             }
 
-            .boss-two{
+            .boss-two {
                 width: 100%;
-                height: 200px;
+                height: 250px;
 
                 background-image: url(../assets/images/juego/img-boss-plex.jpg);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
 
-                
+
                 display: flex;
                 flex-direction: column;
                 align-items: center;
 
-                h4{
-                    margin: 20px 0;
-                    text-align: center;
-                    font-size: 25px;
-                    padding: 15px;
-                    background-color: #00000080;
+                .boss-two-back {
+                    width: 100%;
+                    height: 100%;
+
+                    .boss-two-text {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        h4 {
+                            text-align: center;
+                            font-size: 27px;
+                            padding: 10px;
+                        }
+
+                        p {
+                            display: none;
+                            width: 35%;
+                            font-size: 16px;
+                            padding: 15px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+
+                .boss-two-back:hover {
+                    width: 99.5%;
+                    border: 5px solid #ffffff;
+                    background-color: #0000007a;
+
+                    p {
+                        display: block;
+                    }
                 }
             }
 
-            .boss-three{
+            .boss-three {
                 width: 100%;
-                height: 200px;
+                height: 250px;
 
-                background-image: url(../assets/images/juego/img-juego-fenix.jpg);
+                background-image: url(../assets/images/juego/img-juego-fenix.png);
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
 
-                
+
                 display: flex;
                 flex-direction: column;
                 align-items: center;
 
-                h4{
-                    margin: 20px 0;
-                    text-align: center;
-                    font-size: 25px;
-                    padding: 15px;
-                    background-color: #00000080;
+                .boss-three-back {
+                    width: 100%;
+                    height: 100%;
+
+                    .boss-three-text {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+
+                        h4 {
+                            text-align: center;
+                            font-size: 27px;
+                            padding: 10px;
+                        }
+
+                        p {
+                            display: none;
+                            width: 35%;
+                            font-size: 16px;
+                            padding: 15px;
+                            font-weight: 300;
+                        }
+                    }
+                }
+
+                .boss-three-back:hover {
+                    width: 99.5%;
+                    border: 5px solid #ffffff;
+                    background-color: #0000007a;
+
+                    p {
+                        display: block;
+                    }
                 }
             }
         }
