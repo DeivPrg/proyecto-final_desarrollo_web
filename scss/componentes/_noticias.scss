@@ -14,9 +14,11 @@
 
         .main-noticias_conteiner {
             width: 70%;
-            h3{
+            h2{
+                $h2: map-get($headings, h2 );
                 margin: 50px 0;
-                font-size: 32px;
+                font-size: $h2;
+                font-weight: 900;
                 text-align: center;
             }
 
