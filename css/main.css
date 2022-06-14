@@ -33,18 +33,19 @@ img {
 
 :root {
   --color-pr-oscuro: #2e2e2e;
-  --color-sc-oscuro: 
-; }
+  --color-sc-oscuro: #3a3a3a;
+  --color-pr-amarillo:#f19100;
+  --color-sc-amarillo:#d88304;
+  --color-tr-amarillo:#f8c47b; }
 
 .main-wrapper {
   width: 100%;
-  background-color: #ffffff;
   color: #ffffff;
   font-size: 12px; }
 
 nav {
   height: 58px;
-  background-color: #2a2a2a;
+  background-color: var(--color-pr-oscuro);
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -74,7 +75,7 @@ nav {
   display: flex;
   /* boton jugar */ }
   .nav_listRight .nav_listRight-btnJugar {
-    background-color: #f19100;
+    background-color: var(--color-pr-amarillo);
     color: #000000;
     padding: 22px 48px; }
     .nav_listRight .nav_listRight-btnJugar:hover {
@@ -126,7 +127,7 @@ header {
   align-items: center;
   justify-content: center; }
   .seccion-eventos .eventos-conteiner {
-    background-color: rgba(0, 0, 0, 0.507);
+    background-color: #00000081;
     display: flex;
     align-items: center;
     justify-content: center; }
@@ -147,7 +148,7 @@ header {
             font-weight: 400;
             padding: 12px; }
           .seccion-eventos .eventos-conteiner .eventos-text .eventos-listas ul .eventos-li-fechas {
-            color: #f8c47b;
+            color: var(--color-tr-amarillo);
             font-weight: 300; }
 
 .seccion-estadisticas {
@@ -162,11 +163,11 @@ header {
   justify-content: center; }
   .seccion-estadisticas .estadisticas-conteiner {
     padding: 40px;
-    background-color: #2e2e2e; }
+    background-color: var(--color-pr-oscuro); }
     .seccion-estadisticas .estadisticas-conteiner h3 {
       font-size: 24px;
       text-align: center;
-      color: #f19100; }
+      color: var(--color-pr-amarillo); }
     .seccion-estadisticas .estadisticas-conteiner .estadisticas-text {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -183,7 +184,7 @@ header {
           margin-bottom: 5px;
           font-size: 18px; }
         .seccion-estadisticas .estadisticas-conteiner .estadisticas-text .estadisticas-articulo p {
-          color: #f19100;
+          color: var(--color-pr-amarillo);
           font-size: 13px; }
 
 .juego-wrapper {
@@ -452,7 +453,7 @@ header {
 .noticias-wrapper {
   width: 100%;
   background-color: #ffffff;
-  color: #3a3a3a;
+  color: var(--color-sc-oscuro);
   font-size: 12px; }
   .noticias-wrapper main {
     width: 100%;
@@ -499,7 +500,7 @@ header {
     .contacto-wrapper main form {
       width: 600px;
       height: 760px;
-      color: #d88304;
+      color: var(--color-pr-amarillo);
       background-color: #000000c0;
       display: flex;
       flex-direction: column;
@@ -513,7 +514,7 @@ header {
       .contacto-wrapper main form .cont-fm {
         width: 75%;
         display: block;
-        color: #f19100;
+        color: var(--color-pr-amarillo);
         border-bottom: 2px solid #afafaf;
         font-size: 16px;
         margin: 15px 0; }
@@ -525,7 +526,7 @@ header {
           font-size: 15px;
           font-weight: 300;
           color: #ffffff;
-          background-color: #2b2b2ba6;
+          background-color: var(--color-pr-oscuro);
           border: none;
           outline: none; }
         .contacto-wrapper main form .cont-fm textarea {
@@ -535,9 +536,9 @@ header {
           font-weight: 300;
           resize: none;
           color: #ffffff;
-          background-color: #2b2b2ba6; }
+          background-color: var(--color-pr-oscuro); }
       .contacto-wrapper main form .boton-ingresar {
-        background-color: #f19100;
+        background-color: var(--color-pr-amarillo);
         color: #ffffff;
         text-align: center;
         font-size: 16px;
@@ -549,7 +550,7 @@ header {
 .ayuda-wrapper {
   width: 100%;
   background-color: #ffffff;
-  color: #3a3a3a;
+  color: var(--color-sc-oscuro);
   font-size: 12px; }
   .ayuda-wrapper .main_ayuda h3 {
     margin: 50px 0;
@@ -575,7 +576,7 @@ header {
     .ayuda-wrapper .main_ayuda .ayuda_text-conteiner h4 {
       font-size: 22px;
       margin-bottom: 10px;
-      color: #d88304; }
+      color: var(--color-sc-amarillo); }
     .ayuda-wrapper .main_ayuda .ayuda_text-conteiner p {
       font-size: 18px;
       font-weight: 300; }
@@ -584,7 +585,6 @@ header {
 
 .iniciar_sesion-wrapper {
   width: 100%;
-  background-color: #3b3b3b;
   color: #ffffff;
   font-size: 12px; }
   .iniciar_sesion-wrapper main {
@@ -608,18 +608,18 @@ header {
         width: 100%;
         text-align: center;
         margin: 25px;
-        color: #3b3b3b;
+        color: var(--color-sc-oscuro);
         font-weight: 500;
         font-size: 19px;
         padding-bottom: 20px;
         border-bottom: 1px solid #c2c2c2; }
       .iniciar_sesion-wrapper main form a {
         font-weight: 400;
-        color: #3b3b3b;
+        color: var(--color-sc-oscuro);
         margin: 20px 0; }
       .iniciar_sesion-wrapper main form .usuario {
         width: 75%;
-        color: #3b3b3b;
+        color: var(--color-sc-oscuro);
         border-bottom: 2px solid #797979;
         font-size: 14px;
         margin: 25px 0; }
@@ -632,7 +632,7 @@ header {
           background: none;
           outline: none; }
       .iniciar_sesion-wrapper main form .boton-ingresar {
-        background-color: #f19100;
+        background-color: var(--color-pr-amarillo);
         color: #ffffff;
         text-align: center;
         font-size: 16px;
@@ -654,7 +654,7 @@ footer {
 
 .footer_redes_sociales {
   width: 100%;
-  background-color: #2e2e2e;
+  background-color: var(--color-pr-oscuro);
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -684,8 +684,7 @@ footer {
 
 .footer_img_teen {
   margin-top: 40px;
-  width: 88px;
-  background-color: #de7e00; }
+  width: 88px; }
 
 footer p {
   color: #ffffffb4;

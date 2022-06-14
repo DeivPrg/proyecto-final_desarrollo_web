@@ -2,7 +2,7 @@
 
 nav {
     height: 58px;
-    background-color: #2a2a2a;
+    background-color: var(--color-pr-oscuro);
 
     display: flex;
     align-items: center;
@@ -42,7 +42,7 @@ nav {
 
         /* boton jugar */
         .nav_listRight-btnJugar {
-            background-color: #f19100;
+            background-color:  var(--color-pr-amarillo);
             color: #000000;
             padding: 22px 48px;
 

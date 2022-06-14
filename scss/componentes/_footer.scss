@@ -19,7 +19,7 @@ footer{
 
 .footer_redes_sociales{
     width: 100%;
-    background-color: #2e2e2e;
+    background-color:  var(--color-pr-oscuro);
 
     display: flex;
     align-items: center;
@@ -62,7 +62,6 @@ footer{
 .footer_img_teen{
     margin-top: 40px;
     width: 88px;
-    background-color: rgb(222, 126, 0);
 }
 
 footer p{
